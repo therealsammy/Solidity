@@ -1,4 +1,4 @@
 *.txt
 .env
 node_modules
-.encrypyKey.json
+.encryptedKey.json
