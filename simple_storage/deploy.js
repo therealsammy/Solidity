@@ -10,7 +10,6 @@ async function main() {
     process.env.PRIVATE_KEY_PASSWORD
   );
   wallet = await wallet.connect(provider);
-  //const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
 
   const abi = fs.readFileSync("./SimpleStorage_sol_SimpleStorage.abi", "utf8");
   const binary = fs.readFileSync(
