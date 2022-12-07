@@ -1,0 +1,2 @@
+FROM s
+COPY ./ n
